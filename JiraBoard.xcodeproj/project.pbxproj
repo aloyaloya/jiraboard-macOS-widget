@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B0A9B0000000000000000000000001 /* JiraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000001 /* JiraModels.swift */; };
+		A9B0A9B0000000000000000000000002 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000002 /* SharedStore.swift */; };
+		A9B0A9B0000000000000000000000003 /* JiraClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000003 /* JiraClient.swift */; };
+		A9B0A9B0000000000000000000000004 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000004 /* Theme.swift */; };
+		A9B0A9B0000000000000000000000005 /* JiraBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000005 /* JiraBoardApp.swift */; };
+		A9B0A9B0000000000000000000000007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000007 /* ContentView.swift */; };
+		D9B0D9B0000000000000000000000001 /* JiraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000001 /* JiraModels.swift */; };
+		D9B0D9B0000000000000000000000002 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000002 /* SharedStore.swift */; };
+		D9B0D9B0000000000000000000000003 /* JiraClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000003 /* JiraClient.swift */; };
+		D9B0D9B0000000000000000000000004 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000004 /* Theme.swift */; };
+		D9B0D9B0000000000000000000000005 /* JiraBoardWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000008 /* JiraBoardWidgetBundle.swift */; };
+		D9B0D9B0000000000000000000000006 /* KanbanProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000009 /* KanbanProvider.swift */; };
+		D9B0D9B0000000000000000000000007 /* KanbanEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E00000000000000000000000A /* KanbanEntryView.swift */; };
+		D9B0D9B0000000000000000000000008 /* KanbanIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E00000000000000000000000B /* KanbanIntents.swift */; };
+		D9B0D9B0000000000000000000000009 /* JiraConfigIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000010 /* JiraConfigIntent.swift */; };
+		A9B0A9B0000000000000000000000010 /* JiraConfigIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11EF11E000000000000000000000010 /* JiraConfigIntent.swift */; };
+		EEB0EEB0000000000000000000000001 /* JiraBoardWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F0D9F0D000000000000000000000002 /* JiraBoardWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C0A9C0A000000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0F9F0F000000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A607A60000000000000000000000002;
+			remoteInfo = JiraBoardWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EA59EA5000000000000000000000004 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EEB0EEB0000000000000000000000001 /* JiraBoardWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9F0D9F0D000000000000000000000001 /* JiraBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiraBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0D9F0D000000000000000000000002 /* JiraBoardWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JiraBoardWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11EF11E000000000000000000000001 /* JiraModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraModels.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000002 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000003 /* JiraClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraClient.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000004 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000005 /* JiraBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraBoardApp.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000010 /* JiraConfigIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraConfigIntent.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000008 /* JiraBoardWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiraBoardWidgetBundle.swift; sourceTree = "<group>"; };
+		F11EF11E000000000000000000000009 /* KanbanProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanProvider.swift; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000A /* KanbanEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanEntryView.swift; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000B /* KanbanIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanIntents.swift; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000D /* JiraBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JiraBoard.entitlements; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11EF11E00000000000000000000000F /* JiraBoardWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JiraBoardWidget.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EA59EA5000000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA59EA5000000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F006F00000000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				6F006F00000000000000000000000002 /* Shared */,
+				6F006F00000000000000000000000003 /* App */,
+				6F006F00000000000000000000000004 /* Widget */,
+				6F006F00000000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F006F00000000000000000000000002 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF11E000000000000000000000001 /* JiraModels.swift */,
+				F11EF11E000000000000000000000002 /* SharedStore.swift */,
+				F11EF11E000000000000000000000003 /* JiraClient.swift */,
+				F11EF11E000000000000000000000004 /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6F006F00000000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF11E000000000000000000000005 /* JiraBoardApp.swift */,
+				F11EF11E000000000000000000000007 /* ContentView.swift */,
+				F11EF11E00000000000000000000000C /* Info.plist */,
+				F11EF11E00000000000000000000000D /* JiraBoard.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6F006F00000000000000000000000004 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F11EF11E000000000000000000000008 /* JiraBoardWidgetBundle.swift */,
+				F11EF11E000000000000000000000009 /* KanbanProvider.swift */,
+				F11EF11E00000000000000000000000A /* KanbanEntryView.swift */,
+				F11EF11E00000000000000000000000B /* KanbanIntents.swift */,
+				F11EF11E000000000000000000000010 /* JiraConfigIntent.swift */,
+				F11EF11E00000000000000000000000E /* Info.plist */,
+				F11EF11E00000000000000000000000F /* JiraBoardWidget.entitlements */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		6F006F00000000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0D9F0D000000000000000000000001 /* JiraBoard.app */,
+				9F0D9F0D000000000000000000000002 /* JiraBoardWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A607A60000000000000000000000001 /* JiraBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11FC11F000000000000000000000002 /* Build configuration list for PBXNativeTarget "JiraBoard" */;
+			buildPhases = (
+				9EA59EA5000000000000000000000001 /* Sources */,
+				9EA59EA5000000000000000000000002 /* Frameworks */,
+				9EA59EA5000000000000000000000003 /* Resources */,
+				9EA59EA5000000000000000000000004 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9DDE9D000000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = JiraBoard;
+			productName = JiraBoard;
+			productReference = 9F0D9F0D000000000000000000000001 /* JiraBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A607A60000000000000000000000002 /* JiraBoardWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11FC11F000000000000000000000003 /* Build configuration list for PBXNativeTarget "JiraBoardWidget" */;
+			buildPhases = (
+				9EA59EA5000000000000000000000005 /* Sources */,
+				9EA59EA5000000000000000000000006 /* Frameworks */,
+				9EA59EA5000000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiraBoardWidget;
+			productName = JiraBoardWidget;
+			productReference = 9F0D9F0D000000000000000000000002 /* JiraBoardWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0F9F0F000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					7A607A60000000000000000000000001 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					7A607A60000000000000000000000002 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = C11FC11F000000000000000000000001 /* Build configuration list for PBXProject "JiraBoard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F006F00000000000000000000000001;
+			productRefGroup = 6F006F00000000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A607A60000000000000000000000001 /* JiraBoard */,
+				7A607A60000000000000000000000002 /* JiraBoardWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA59EA5000000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA59EA5000000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EA59EA5000000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B0A9B0000000000000000000000001 /* JiraModels.swift in Sources */,
+				A9B0A9B0000000000000000000000002 /* SharedStore.swift in Sources */,
+				A9B0A9B0000000000000000000000003 /* JiraClient.swift in Sources */,
+				A9B0A9B0000000000000000000000004 /* Theme.swift in Sources */,
+				A9B0A9B0000000000000000000000005 /* JiraBoardApp.swift in Sources */,
+				A9B0A9B0000000000000000000000007 /* ContentView.swift in Sources */,
+				A9B0A9B0000000000000000000000010 /* JiraConfigIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA59EA5000000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B0D9B0000000000000000000000001 /* JiraModels.swift in Sources */,
+				D9B0D9B0000000000000000000000002 /* SharedStore.swift in Sources */,
+				D9B0D9B0000000000000000000000003 /* JiraClient.swift in Sources */,
+				D9B0D9B0000000000000000000000004 /* Theme.swift in Sources */,
+				D9B0D9B0000000000000000000000005 /* JiraBoardWidgetBundle.swift in Sources */,
+				D9B0D9B0000000000000000000000006 /* KanbanProvider.swift in Sources */,
+				D9B0D9B0000000000000000000000007 /* KanbanEntryView.swift in Sources */,
+				D9B0D9B0000000000000000000000008 /* KanbanIntents.swift in Sources */,
+				D9B0D9B0000000000000000000000009 /* JiraConfigIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9DDE9D000000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A607A60000000000000000000000002 /* JiraBoardWidget */;
+			targetProxy = 9C0A9C0A000000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0F1C0F1000000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0F1C0F1000000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0F1C0F1000000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/JiraBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N6726VA44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloyaloya.jiraboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0F1C0F1000000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/JiraBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N6726VA44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloyaloya.jiraboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C0F1C0F1000000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/JiraBoardWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N6726VA44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloyaloya.jiraboard.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C0F1C0F1000000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/JiraBoardWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2N6726VA44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloyaloya.jiraboard.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11FC11F000000000000000000000001 /* Build configuration list for PBXProject "JiraBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F1C0F1000000000000000000000001 /* Debug */,
+				C0F1C0F1000000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11FC11F000000000000000000000002 /* Build configuration list for PBXNativeTarget "JiraBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F1C0F1000000000000000000000003 /* Debug */,
+				C0F1C0F1000000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11FC11F000000000000000000000003 /* Build configuration list for PBXNativeTarget "JiraBoardWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F1C0F1000000000000000000000005 /* Debug */,
+				C0F1C0F1000000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0F9F0F000000000000000000000001 /* Project object */;
+}
